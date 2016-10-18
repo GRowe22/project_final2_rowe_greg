@@ -23,3 +23,36 @@ header {
     display: block;
     margin: auto;
 }
+
+#color-swatches {
+    padding: 2%;
+    margin: auto;
+}
+
+#color-swatches li {
+    list-style-type: none;
+    width: calc(100% / 7);
+    padding-bottom: 12%;
+    margin: 2%;
+    display: inline-block;
+}
+
+#color-1 {
+    background-color: #010440;
+}
+
+#color-2 {
+    background-color: #010326;
+}
+
+#color-3 {
+    background-color: #158c03;
+}
+
+#color-4 {
+    background-color: #f2561d;
+}
+
+#color-5 {
+    background-color: #8c1818;
+}
