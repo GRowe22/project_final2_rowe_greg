@@ -12,6 +12,14 @@ main {
     background-color: #e4e4e4;
 }
 
+h1 {
+    font-family: 'Wendy One', sans-serif;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
 .site-container {
     max-width: 1200px;
     overflow: hidden;
