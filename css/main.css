@@ -1,0 +1,25 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+.site-container {
+    max-width: 1200px;
+    overflow: hidden;
+    margin: auto;
+}
+
+header {
+    background-color: #8c1818;
+}
+
+#logo {
+    max-width: 200px;
+    display: block;
+    margin: auto;
+}
