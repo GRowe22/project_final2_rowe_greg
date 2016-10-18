@@ -8,10 +8,25 @@ html {
     box-sizing: inherit;
 }
 
+main {
+    background-color: #e4e4e4;
+}
+
 .site-container {
     max-width: 1200px;
     overflow: hidden;
     margin: auto;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
 }
 
 header {
