@@ -97,5 +97,5 @@ header {
 
 .images {
     width: calc(100% - 4em);
-    margin: 0.5em 2em;
+    margin: 0.5em 2em 0 2em;
 }
