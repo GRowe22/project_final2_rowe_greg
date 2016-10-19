@@ -10,14 +10,17 @@ html {
 
 main {
     background-color: #e4e4e4;
+    padding-bottom: 2em;
 }
 
 h1 {
     font-family: 'Wendy One', sans-serif;
+    color: #8c1818;
 }
 
 p {
     font-family: 'Open Sans', sans-serif;
+    color: #010440;
 }
 
 .site-container {
@@ -78,4 +81,11 @@ header {
 
 #color-5 {
     background-color: #8c1818;
+}
+
+#text-sample {
+    background-color: #ffffff;
+    margin: 1% 7%;
+    padding: 1em;
+    width: 40%;
 }
