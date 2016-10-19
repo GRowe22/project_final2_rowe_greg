@@ -41,7 +41,7 @@ p {
 }
 
 header {
-    background-color: #8c1818;
+    background-color: #010440;
 }
 
 #logo {
@@ -51,15 +51,15 @@ header {
 }
 
 #color-swatches {
-    padding: 2%;
+    padding: 1em;
     margin: auto;
 }
 
 #color-swatches li {
     list-style-type: none;
     width: calc(100% / 7);
-    padding-bottom: 12%;
-    margin: 2%;
+    padding-bottom: calc(100% / 8);
+    margin: 0 2%;
     display: inline-block;
 }
 
@@ -85,7 +85,17 @@ header {
 
 #text-sample {
     background-color: #ffffff;
-    margin: 1% 7%;
+    margin: 0 2em;
     padding: 1em;
-    width: 40%;
+}
+
+@media all and (min-width: 750px) {
+    #text-sample {
+        width: 40%;
+    }
+}
+
+.images {
+    width: calc(100% - 4em);
+    margin: 0.5em 2em;
 }
