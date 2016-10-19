@@ -99,3 +99,12 @@ header {
     width: calc(100% - 4em);
     margin: 0.5em 2em 0 2em;
 }
+
+.button {
+    width: calc(100% - 4em);
+    margin: 0.5em 2em 0 2em;
+}
+
+.button:hover {
+    background-image: url(../img/hover-button.png);
+}
