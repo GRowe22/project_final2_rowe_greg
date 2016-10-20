@@ -89,15 +89,36 @@ header {
     padding: 1em;
 }
 
+#text-sample a {
+    font-style: italic;
+    font-weight: 600;
+    text-decoration: none;
+    color: #f2561d;
+}
+
+#text-sample a:hover {
+    text-decoration: underline;
+}
+
 @media all and (min-width: 750px) {
     #text-sample {
         width: 40%;
+        float: left;
+        margin: 0 0 0.5em 2em;
     }
 }
 
 .images {
     width: calc(100% - 4em);
     margin: 0.5em 2em 0 2em;
+}
+
+@media all and (min-width: 750px) {
+    .images {
+        width: 51%;
+        float: right;
+        margin: 0 2em 0.5em 0;
+    }
 }
 
 .button {
