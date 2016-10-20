@@ -13,6 +13,12 @@ h1 {
     color: #8c1818;
 }
 
+h2 {
+    color: #158c03;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+}
+
 p {
     font-family: 'Open Sans', sans-serif;
     color: #010440;
