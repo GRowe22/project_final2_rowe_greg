@@ -100,11 +100,22 @@ header {
     margin: 0.5em 2em 0 2em;
 }
 
-.button {
+/*.button {
     width: calc(100% - 4em);
     margin: 0.5em 2em 0 2em;
 }
 
 .button:hover {
     background-image: url(../img/hover-button.png);
+}*/
+
+button {
+    background: linear-gradient(#447287, #1d2533);
+    border: none;
+    border-radius: 0.25em;
+    color: white;
+}
+
+button:hover {
+    background: linear-gradient(#1d2533, #447287);
 }
