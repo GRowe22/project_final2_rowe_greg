@@ -64,9 +64,9 @@ header {
 
 #color-swatches li {
     list-style-type: none;
-    width: calc(100% / 7);
+    width: calc(100% / 5 - 1em);
     padding-bottom: calc(100% / 8);
-    margin: 0 2%;
+    margin: 0 0.5em;
     display: inline-block;
 }
 
