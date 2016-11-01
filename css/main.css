@@ -58,6 +58,10 @@ header {
     margin: auto;
 }
 
+#color-swatches ul {
+    padding-left: 0;
+}
+
 #color-swatches li {
     list-style-type: none;
     width: calc(100% / 7);
